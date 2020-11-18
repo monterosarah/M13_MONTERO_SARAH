@@ -14,6 +14,7 @@ h1 {
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    color: #695281;
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
     text-align: center;
     padding-left: 5%;
     padding-right: 5%;
+    color: #695281;
 }
 
 h3 {
@@ -52,6 +54,13 @@ figure {
     padding: 0;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
 #headerimg {
     display: block;
     margin-left: auto;
@@ -59,4 +68,6 @@ figure {
     width: 25%;
     margin-bottom: -25px;
 }
+
+
 
