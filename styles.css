@@ -9,17 +9,54 @@ body {
 /* Header and Paragraph Fonts */
 
 h1 {
-    font-family: Helvetica, sans-serif;
-    font-size: 3rem;
-    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
 }
 
 h2 {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Images */
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+#headerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-bottom: -25px;
+}
+
