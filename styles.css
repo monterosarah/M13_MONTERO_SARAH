@@ -1,1 +1,25 @@
 /** Mobile Version **/
+/* Body */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Paragraph Fonts */
+
+h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
