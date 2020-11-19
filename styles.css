@@ -350,33 +350,36 @@ footer p {
     }
 
     #twocolumngrid {
+        margin-top: -3%;
+        padding: 0;
         align-items: center;
+        justify-content: center;
         display: grid;
-        grid-template-columns: 2, 1fr;
-        grid-column-gap: 10px;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 0;
         grid-template-areas: 
-            "form floristimg";
+            "aside floristimg";
     }
 
-    #form {
-        grid-area: form;
-        width: 86%;
-        height: 675px;
-        margin-left: 21%;
+    aside {
+        grid-area: aside;
+        width: 65%;
+        margin-left: 17%;
     }
     
     #floristimg {
         grid-area: floristimg;
-        width: 60%;
-        height: 700px;
-    }
-
-    aside {
-        width: 100%;
+        width: 75%;
+        height: 675px;
+        margin-right: 18%;
     }
 
     #message {
         margin-left: 2%;
+    }
+
+    input[type=submit] {
+        margin-bottom: 100px;
     }
 
     footer {
