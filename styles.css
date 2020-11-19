@@ -194,7 +194,7 @@ label {
 
 #message {
     margin-top: 5%;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 #comments {
@@ -268,5 +268,9 @@ footer p {
     
     #floristimg {
         width: 65%;
+    }
+
+    #message {
+        margin-left: 2%;
     }
 }
