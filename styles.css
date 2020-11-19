@@ -194,7 +194,7 @@ label {
 
 #message {
     margin-top: 5%;
-    margin-left: 3%;
+    margin-left: 2%;
 }
 
 #comments {
@@ -268,34 +268,5 @@ footer p {
     
     #floristimg {
         width: 65%;
-    }
-    
-    /* Form */
-    
-    aside {
-        background-color: #695281;
-        color: white;
-        font-family: Helvetica, sans-serif;
-        font-size: 1rem;
-        font-weight: 200;
-        width: 65%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        padding: 2%;
-    }
-    
-    #fname, #lname, #email {
-        width: 85%;
-        height: 25px;
-        margin-left: 5%;
-        margin-bottom: 8px;
-        margin-top: 3px;
-    }
-    
-    #question, #order, #problem {
-        margin-left: 5%;
     }
 }
