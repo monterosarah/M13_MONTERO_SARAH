@@ -324,7 +324,7 @@ footer p {
         width: 65%;
         height: 80%;
         padding: 6%;
-        padding-bottom: 1%;
+        padding-bottom: 10px;
         margin-right: 0;
     }
     
@@ -333,11 +333,11 @@ footer p {
         width: 65%;
         height: 80%;
         padding: 6%;
-        padding-bottom: 1%;
+        padding-bottom: 10px;
     }
 
     #contentimg img {
-        height: 260px;
+        height: 250px;
     }
     
     #specialty {
@@ -345,7 +345,7 @@ footer p {
         width: 65%;
         height: 80%;
         padding: 6%;
-        padding-bottom: 1%;
+        padding-bottom: 10px;
         margin-left: 0;
     }
 
