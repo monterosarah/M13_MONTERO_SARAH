@@ -363,14 +363,13 @@ footer p {
 
     aside {
         grid-area: aside;
-        width: 65%;
+        width: 73%;
         margin-left: 17%;
     }
     
     #floristimg {
         grid-area: floristimg;
-        width: 75%;
-        height: 675px;
+        width: 65%;
         margin-right: 18%;
     }
 
