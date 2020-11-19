@@ -282,3 +282,104 @@ footer p {
         margin-left: 2%;
     }
 }
+
+
+/*** Desktop Version ***/
+@media (min-width: 1024px) {
+
+    h1 {
+        font-size: 3.25rem;
+    }
+
+    h3 {
+        font-size: 1rem
+    }
+
+    img {
+        width: 90%;
+        height: 90%;
+    }
+    
+    #headerimg {
+        width: 10%;
+    }
+    
+    nav ul li {
+        padding-left: 9%;
+        padding-right: 9%;
+    }
+
+    #contentimg {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 3, 1fr;
+        grid-column-gap: 10px;
+        grid-template-areas: 
+            "bouquet arrangement specialty";
+    }
+
+    #bouquet {
+        grid-area: bouquet;
+        width: 65%;
+        height: 80%;
+        padding: 6%;
+        padding-bottom: 1%;
+        margin-right: 0;
+    }
+    
+    #arrangement {
+        grid-area: arrangement;
+        width: 65%;
+        height: 80%;
+        padding: 6%;
+        padding-bottom: 1%;
+    }
+
+    #contentimg img {
+        height: 260px;
+    }
+    
+    #specialty {
+        grid-area: specialty;
+        width: 65%;
+        height: 80%;
+        padding: 6%;
+        padding-bottom: 1%;
+        margin-left: 0;
+    }
+
+    #twocolumngrid {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 2, 1fr;
+        grid-column-gap: 10px;
+        grid-template-areas: 
+            "form floristimg";
+    }
+
+    #form {
+        grid-area: form;
+        width: 86%;
+        height: 675px;
+        margin-left: 21%;
+    }
+    
+    #floristimg {
+        grid-area: floristimg;
+        width: 60%;
+        height: 700px;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    #message {
+        margin-left: 2%;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+}
