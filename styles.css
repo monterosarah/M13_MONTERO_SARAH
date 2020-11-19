@@ -46,7 +46,7 @@ h3 {
 h4 {
     color: white;
     font-family: Helvetica, sans-serif;
-    font-size: .75rem;
+    font-size: 1rem;
     font-weight: 200;
     margin-left: 15px;
     margin-bottom: 2%;
@@ -121,7 +121,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    padding: 8%;
+    padding: 10%;
     padding-bottom: 3%;
     margin-bottom: 10%;
 }
@@ -132,7 +132,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    padding: 8%;
+    padding: 10%;
     padding-bottom: 3%;
     margin-bottom: 10%;
 }
@@ -143,7 +143,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 65%;
-    padding: 8%;
+    padding: 10%;
     padding-bottom: 3%;
 }
 
@@ -236,46 +236,38 @@ footer p {
     text-shadow: 2px 2px 8px grey;
 }
 
+
+/*** Tablet Version ***/
 @media (min-width: 768px) and (max-width: 1023px) {
+
+    h1 {
+        font-size: 3.25rem;
+    }
     
     #headerimg {
-        width: 15%;
+        width: 18%;
     }
     
     #bouquet {
         width: 50%;
-        padding: 5%;
+        padding: 8%;
         padding-bottom: 2%;
-        margin-bottom: 10%;
     }
     
     #arrangement {
-        background-color: #B8CBE5;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 50%;
         padding: 8%;
-        padding-bottom: 3%;
-        margin-bottom: 10%;
+        padding-bottom: 2%;
     }
     
     #specialty {
-        background-color: #F6D0C0;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 50%;
         padding: 8%;
-        padding-bottom: 3%;
+        padding-bottom: 2%;
     }
     
     #floristimg {
-        width: 80%;
-        padding: 10px;
-        border-style: solid;
-        border-color: #F6D0C0;
-        border-width: 4px;
+        width: 65%;
     }
     
     /* Form */
@@ -286,17 +278,13 @@ footer p {
         font-family: Helvetica, sans-serif;
         font-size: 1rem;
         font-weight: 200;
-        width: 80%;
+        width: 65%;
         display: block;
         margin-left: auto;
         margin-right: auto;
         margin-top: 10%;
         margin-bottom: 10%;
         padding: 2%;
-    }
-    
-    label {
-        margin-left: 15px;
     }
     
     #fname, #lname, #email {
@@ -309,53 +297,5 @@ footer p {
     
     #question, #order, #problem {
         margin-left: 5%;
-    }
-    
-    #radio label {
-        margin-left: 0;
-    }
-    
-    #message {
-        margin-top: 5%;
-        margin-left: 3%;
-    }
-    
-    #comments {
-        width: 85%;
-        height: 75px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    
-    input[type=submit] {
-        color: grey;
-        width: 80px;
-        height: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        margin-left: 5%;
-        margin-bottom: 100px;
-        border-style: solid;
-        border-color: black;
-        border-width: 1px;
-    }
-    
-    /* Footer */
-    
-    footer {
-        padding: 20px;
-        margin-top: 6%;
-        background: #f6d0c0;
-        background: -moz-linear-gradient(left,  #f6d0c0 0%, #d8a7d3 51%, #b8cbe5 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left,  #f6d0c0 0%,#d8a7d3 51%,#b8cbe5 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right,  #f6d0c0 0%,#d8a7d3 51%,#b8cbe5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6d0c0', endColorstr='#b8cbe5',GradientType=1 ); /* IE6-9 */
-    }
-    
-    footer p {
-        color: white;
-        margin: 0;
-        text-align: center;
-        text-shadow: 2px 2px 8px grey;
     }
 }
